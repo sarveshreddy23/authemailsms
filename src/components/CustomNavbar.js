@@ -6,7 +6,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 const CustomNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" className='px-4'>
-        <Navbar.Brand as={Link} to="/" end>Auth-Email-SMS</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" end><img src="/logo_200px.png" alt="logo" width={50}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
